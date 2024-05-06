@@ -1,0 +1,33 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.module{
+    text-align: center;
+    border-style: dashed solid;
+    color: darkcyan;
+    padding-top: 15px 0px 15px;
+    border-radius: 30px;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.video-num{
+    text-align: center;
+}
+.content{
+    justify-content: center;
+    text-align: center;
+    border: 2px solid;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: aliceblue;
+}
+
+.table{
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+}
