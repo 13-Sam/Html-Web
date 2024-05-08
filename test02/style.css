@@ -1,0 +1,57 @@
+nav h1 {
+    text-align: center;
+    background-color: rgb(197, 193, 193);
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.image {
+    height: 15em;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.shipping {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 13px;
+}
+
+.cart-btn {
+    background-color: black;
+    color: white;
+    height: 31px;
+    width: 130px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+article {
+    border: 5px solid;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: underline;
+}
+
+
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+a:hover {
+    font-size: large;
+    text-decoration: none;
+}

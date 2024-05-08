@@ -1,33 +1,146 @@
-h1{
+h1,
+h2,
+h3,
+h4,
+p,
+li {
     font-family: sans-serif;
+    color: #444;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-size: 18px;
+
+}
+
+h1,
+h2,
+h3 {
+    color: #1098ad;
+}
+
+h1 {
     font-size: 26px;
-    text-transform: uppercase;
     font-style: italic;
+    text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-size: 40px;
-    font-family: sans-serif;
+    margin-bottom: 30px;
 }
 
-h3{
+h3 {
     font-size: 30px;
-    font-family: sans-serif;
-
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
-h4{
-    font-family: sans-serif;
+h4 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
-p{
-    font-size: 22px;
-    font-family: sans-serif;
+
+p {
     line-height: 1.5;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
-li{
+
+ul,
+ol {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+li {
     font-size: 20px;
-    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ul {
+    list-style: none;
+} */
+
+.related {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+    border-top: 10px solid #1098ad;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+aside {
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    padding: 50px 0;
+
+}
+
+article p:last-child {
+    color: red;
+}
+
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline dotted orangered;
+    color: orangered;
+    font-weight: bold;
+}
+
+a:active {
+    font-style: italic;
+    background-color: black;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+.post-img {
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
